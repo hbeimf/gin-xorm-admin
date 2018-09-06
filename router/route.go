@@ -5,13 +5,18 @@ import (
 	"github.com/angao/gin-xorm-admin/router/middlewares"
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
+
+	"github.com/gin-contrib/sessions/memstore"
 )
 
 // Init 路由
 func Init(port string) {
 	router := gin.New()
 
-	store := sessions.NewCookieStore([]byte("jDIkFg6ju7kEM7DOIWGcXSLwCL6QaMZy"))
+	// store := sessions.NewCookieStore([]byte("jDIkFg6ju7kEM7DOIWGcXSLwCL6QaMZy"))
+
+	store := memstore.NewStore([]byte("secret"))
+
 	store.Options(sessions.Options{
 		Path:     "/",
 		HttpOnly: false,
