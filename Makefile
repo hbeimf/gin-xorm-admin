@@ -1,10 +1,10 @@
 # GOPATH := $(shell pwd)
 
-all: run
+all: server
 
-# server: server.go
-# 	@GOPATH=$(GOPATH) go get -d
-# 	@GOPATH=$(GOPATH) go build -o $@
+server: main.go
+	@GOPATH=$(GOPATH) go get -d
+	@GOPATH=$(GOPATH) go build -o $@
 
 
 run:
