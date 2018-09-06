@@ -1,8 +1,8 @@
 package router
 
 import (
-	"github.com/angao/gin-xorm-admin/controller"
-	"github.com/angao/gin-xorm-admin/router/middlewares"
+	"gin-xorm-admin/controller"
+	"gin-xorm-admin/router/middlewares"
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
 

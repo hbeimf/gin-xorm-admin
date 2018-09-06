@@ -3,7 +3,7 @@ package db
 import (
 	"errors"
 
-	"github.com/angao/gin-xorm-admin/models"
+	"gin-xorm-admin/models"
 )
 
 // DeptDao operate dept db

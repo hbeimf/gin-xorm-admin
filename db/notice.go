@@ -3,8 +3,8 @@ package db
 import (
 	"errors"
 
-	"github.com/angao/gin-xorm-admin/models"
-	"github.com/angao/gin-xorm-admin/utils"
+	"gin-xorm-admin/models"
+	"gin-xorm-admin/utils"
 )
 
 // NoticeDao 通知操作

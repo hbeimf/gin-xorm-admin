@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/angao/gin-xorm-admin/db"
-	"github.com/angao/gin-xorm-admin/models"
+	"gin-xorm-admin/db"
+	"gin-xorm-admin/models"
 	"github.com/gin-gonic/gin"
 )
 

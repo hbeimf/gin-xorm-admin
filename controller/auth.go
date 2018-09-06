@@ -6,8 +6,8 @@ import (
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
 
-	"github.com/angao/gin-xorm-admin/db"
-	"github.com/angao/gin-xorm-admin/utils"
+	"gin-xorm-admin/db"
+	"gin-xorm-admin/utils"
 )
 
 // AuthController handle auth request

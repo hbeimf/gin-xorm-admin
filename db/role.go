@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/angao/gin-xorm-admin/models"
-	"github.com/angao/gin-xorm-admin/utils"
+	"gin-xorm-admin/models"
+	"gin-xorm-admin/utils"
 )
 
 // RoleDao operate role

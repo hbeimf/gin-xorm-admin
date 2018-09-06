@@ -1,4 +1,4 @@
-package: github.com/angao/gin-xorm-admin
+package: gin-xorm-admin
 import:
 - package: github.com/gin-contrib/sessions
 - package: github.com/gin-gonic/gin

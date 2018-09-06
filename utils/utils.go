@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/angao/gin-xorm-admin/router/multitemplate"
+	"gin-xorm-admin/router/multitemplate"
 )
 
 // FormatDate 格式化时间

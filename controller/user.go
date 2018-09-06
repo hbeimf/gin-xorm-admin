@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/angao/gin-xorm-admin/db"
-	"github.com/angao/gin-xorm-admin/models"
-	"github.com/angao/gin-xorm-admin/utils"
+	"gin-xorm-admin/db"
+	"gin-xorm-admin/models"
+	"gin-xorm-admin/utils"
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
 )
